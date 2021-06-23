@@ -12,13 +12,12 @@ def get_configured_service_runner(service_list):
     async def service_runner(connection):
         app = await iterm2.async_get_app(connection)
         window = await iterm2.Window.async_create(connection)
-        startNewTab = False
+        tab = None
         for service in service_list:
-            if startNewTab is True:
-                tab = await window.async_create_tab()
-            else:
+            if tab is None:
                 tab = window.current_tab
-                startNewTab = True
+            else:
+                tab = await window.async_create_tab()
             await tab.async_set_title(service["name"])
             session = tab.current_session
             await session.async_send_text(f'cd {service["path"]}\n')
