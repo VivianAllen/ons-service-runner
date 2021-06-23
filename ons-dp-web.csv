@@ -1,0 +1,9 @@
+name,path,action
+ons-dp-docker-compose,/Users/vivianallen/Projects/ons-dp/dp-compose,./run.sh
+ons-babbage,/Users/vivianallen/Projects/ons-dp/babbage,./run.sh
+ons-zebedee-reader,/Users/vivianallen/Projects/ons-dp/zebedee,./run.sh
+ons-sixteens,/Users/vivianallen/Projects/ons-dp/sixteens,./run.sh
+ons-sixteens,/Users/vivianallen/Projects/ons-dp/sixteens,./run.sh
+ons-dp-frontend-renderer,/Users/vivianallen/Projects/ons-dp/dp-frontend-renderer,make debug
+ons-dp-frontend-router,/Users/vivianallen/Projects/ons-dp/dp-frontend-router,make debug
+ons-dp-frontend-homepage-controller,/Users/vivianallen/Projects/ons-dp/dp-frontend-homepage-controller,make debug
