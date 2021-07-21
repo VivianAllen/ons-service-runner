@@ -1,0 +1,18 @@
+name,path,action
+ons-dp-docker-compose,/Users/vivianallen/Projects/ons-dp/dp-compose,./run.sh
+ons-babbage,/Users/vivianallen/Projects/ons-dp/babbage,./run-publishing.sh
+ons-zebedee,/Users/vivianallen/Projects/ons-dp/zebedee,./run.sh
+ons-sixteens,/Users/vivianallen/Projects/ons-dp/sixteens,./run.sh
+ons-dp-frontend-renderer,/Users/vivianallen/Projects/ons-dp/dp-frontend-renderer,make debug
+ons-dp-frontend-homepage-controller,/Users/vivianallen/Projects/ons-dp/dp-frontend-homepage-controller,make debug
+ons-dp-frontend-cookie-controller,/Users/vivianallen/Projects/ons-dp/dp-frontend-cookie-controller,make debug
+ons-dp-frontend-dataset-controller,/Users/vivianallen/Projects/ons-dp/dp-frontend-dataset-controller,make debug
+ons-dp-frontend-feedback-controller,/Users/vivianallen/Projects/ons-dp/dp-frontend-feedback-controller,make debug
+ons-dp-frontend-router,/Users/vivianallen/Projects/ons-dp/dp-frontend-router,make debug
+ons-florence,/Users/vivianallen/Projects/ons-dp/florence,make debug ENCRYPTION_DISABLED=true ENABLE_HOMEPAGE_PUBLISHING=true
+ons-the-train,/Users/vivianallen/Projects/ons-dp/The-Train, make debug
+ons-dp-api-router,/Users/vivianallen/Projects/ons-dp/dp-api-router,make debug
+ons-dp-image-api,/Users/vivianallen/Projects/ons-dp/dp-image-api,make debug
+ons-dp-image-importer,/Users/vivianallen/Projects/ons-dp/dp-image-importer,make debug ENCRYPTION_DISABLED=true
+ons-dp-upload-service,/Users/vivianallen/Projects/ons-dp/dp-upload-service,make debug ENCRYPTION_DISABLED=true
+ons-dp-download-service,/Users/vivianallen/Projects/ons-dp/dp-download-service,make debug ENCRYPTION_DISABLED=true
